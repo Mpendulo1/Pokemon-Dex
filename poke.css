@@ -1,0 +1,99 @@
+body {
+  background-color: #160840;
+  background-image: url(https://comicvine.gamespot.com/a/uploads/scale_medium/11118/111187046/7249019-f9896ed92d0208ba459fa82ae0a1666f.jpg);
+  background-size: cover;
+  background-position: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+h2 {
+  font-size: 5rem;
+  font-family: serif;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 400px;
+}
+button {
+  transition: all 0.5s ease;
+  color: #fff;
+  border: 3px solid white;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 0.5;
+  margin: 5px;
+  font-size: 30px;
+  background-color: transparent;
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+  font-family: inherit;
+}
+button:hover {
+  color: #001f3f;
+  background-color: #fff;
+}
+.btn {
+  margin-left: 213px;
+}
+.pokemon-list-container {
+  display: inline-block;
+  height: 52vh;
+  width: 580px;
+  margin-left: 29%;
+}
+
+img {
+  border: 2px solid #001f3f;
+  border-radius: 10px;
+  width: 300px;
+  margin-left: 20%;
+}
+.pokemon-info {
+  margin-left: 30%;
+  padding-top: 15px;
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.48);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(14.8px);
+  -webkit-backdrop-filter: blur(15.8px);
+}
+p {
+  text-transform: uppercase;
+  color: #02075d;
+  font-size: 30px;
+  line-height: 0.4;
+  margin-left: 20%;
+}
+@media only screen and (max-width: 700px) {
+  h2 {
+    font-size: 40px;
+    font-weight: 100;
+    margin: 10px;
+  }
+  p {
+    font-size: 15px;
+  }
+  img {
+    margin-left: 10%;
+  }
+
+  .pokemon-info {
+    padding-left: 0%;
+    margin-left: 6%;
+    width: 361px;
+  }
+
+  button:hover {
+    color: #001f3f;
+    background-color: #fff;
+  }
+  .pokemon-list-container {
+    display: inline-block;
+    margin-left: 15px;
+    width: 100%;
+  }
+}
